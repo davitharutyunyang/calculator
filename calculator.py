@@ -1,5 +1,6 @@
 import math
 
+# This is a simple calculator that supports various operations, including basic arithmetic, trigonometric functions, logarithmic functions, and more. The user is prompted to input the desired operation and the necessary operands. The program handles errors such as invalid input and division by zero.
 operation = input("Input the operation (+, -, *, /, %, ^, //, sqrt, square, pi, e, abs, fabs, sin, cos, tan, arcsin, arccos, arctan, lnx, lgx, e^x, pow, pow10): ").strip().lower()
 
 no_input_needed = operation == "pi" or operation == "e"
